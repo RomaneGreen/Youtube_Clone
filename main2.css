@@ -1,0 +1,160 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+  font-family:'Roboto',arial,sans-serif;
+}
+
+
+
+header{
+  width: 100%;
+  height:56px;
+  background-color: green;
+  position: fixed;
+ z-index: 1;
+ padding: 30px 10px;
+}
+
+
+section#one{
+width: 65%;
+height: 473px;
+background-color: orange;
+display: inline-block;
+float: left;
+
+}
+
+aside{
+  width: 35%;
+  height:756px;
+  background-color: purple;
+  display: inline-block;
+  float: left;
+
+
+}
+
+section#two{
+  width: 65%;
+  height: 190px;
+  background-color: pink;
+  display: inline-block;
+  float: left;
+  position:relative;
+  bottom: 288px;
+}
+
+section#three{
+  width: 65%;
+  height: 100px;
+  background-color: brown;
+  display: inline-block;
+  position: relative;
+  bottom:290px;
+}
+
+iframe{
+  width: 85%;
+  height: 360px;
+  margin: auto;
+  position: relative;
+  top:70px;
+  left:10px;
+}
+
+.ytlogo {
+  width: 62px;
+  height: 57px;
+  position: relative;
+  top:-30px;
+  left:70px;
+
+}
+
+.new{
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  bottom: 5px;
+  left:40px;
+}
+
+input[type = text]{
+  width: 500px;
+  height: 26px;
+  padding: 2px 6px;
+  position :relative;
+  bottom: 50px;
+  left:150px;
+}
+
+.shrink{
+  width: 32px;
+  height: 32px;
+  position: relative;
+  bottom: 40px;
+  left:150px;
+  color: red;
+}
+
+.btnm{
+  position: absolute;
+  bottom:40px;
+  left: 725px;
+
+}
+
+.uploadlogo{
+  height: 32px;
+  width: 32px;
+  position: relative;
+  top: -39px;
+  left:500px;
+}
+
+
+
+.applogo {
+  height: 22px;
+  width: 22px;
+  position: relative;
+  top: -39px;
+  left:530px;
+}
+
+
+.bellicon{
+  height: 52px;
+  width: 52px;
+  color: blue;
+  position: relative;
+  top: -22px;
+  left:560px;
+
+}
+
+.profileicon{
+  width: 42px;
+  height: 42px;
+  border-radius: 50px;
+  position: relative;
+  top: -35px;
+  left:590px;
+
+}
+
+.clips{
+  position: relative;
+  top: 100px;
+
+}
+
+.CAD{
+  text-align: center;
+  font-weight: normal;
+  position: relative;
+  top:40px;
+
+}
