@@ -1,160 +1,321 @@
-*{
+* {
   box-sizing: border-box;
-  margin:0;
+  margin: 0;
   padding: 0;
-  font-family:'Roboto',arial,sans-serif;
+  font-family: 'Roboto', arial, sans-serif;
 }
 
-
-
-header{
+header {
   width: 100%;
-  height:56px;
-  background-color: green;
+  height: 56px;
+  background-color: white;
   position: fixed;
- z-index: 1;
- padding: 30px 10px;
+  z-index: 15;
+  padding: 30px 10px;
 }
 
-
-section#one{
-width: 65%;
-height: 473px;
-background-color: orange;
-display: inline-block;
-float: left;
-
+section#one {
+  width: 65%;
+  height: 473px;
+  background-color: none;
+  display: inline-block;
+  float: left;
 }
 
-aside{
+aside {
   width: 35%;
-  height:756px;
-  background-color: purple;
+  height: 756px;
+  background-color: none;
   display: inline-block;
   float: left;
-
-
 }
 
-section#two{
+section#two {
   width: 65%;
-  height: 190px;
-  background-color: pink;
+  height: 200px;
+  background-color: none;
   display: inline-block;
   float: left;
-  position:relative;
+  position: relative;
   bottom: 288px;
+  border-bottom: 1px solid rgba(107, 103, 102, 0.07);
+  border-top: 1px solid rgba(107, 103, 102, 0.07);
+  bord
 }
 
-section#three{
+section#three {
   width: 65%;
-  height: 100px;
-  background-color: brown;
+  height: 90px;
+  background-color: none;
   display: inline-block;
   position: relative;
-  bottom:290px;
+  bottom: 290px;
 }
 
-iframe{
+iframe {
   width: 85%;
   height: 360px;
   margin: auto;
   position: relative;
-  top:70px;
-  left:10px;
+  top: 70px;
+  left: 10px;
 }
 
 .ytlogo {
   width: 62px;
   height: 57px;
   position: relative;
-  top:-30px;
-  left:70px;
-
+  top: -30px;
+  left: 70px;
 }
 
-.new{
+.new {
   width: 32px;
   height: 32px;
   position: absolute;
   bottom: 5px;
-  left:40px;
+  left: 40px;
 }
 
-input[type = text]{
+input[type=text] {
   width: 500px;
-  height: 26px;
+  height: 32px;
   padding: 2px 6px;
-  position :relative;
+  position: relative;
   bottom: 50px;
-  left:150px;
+  left: 150px;
 }
 
-.shrink{
+.shrink {
   width: 32px;
   height: 32px;
   position: relative;
   bottom: 40px;
-  left:150px;
+  left: 150px;
   color: red;
 }
 
-.btnm{
+.btnm {
+  width: 45px;
+  height: 32px;
   position: absolute;
-  bottom:40px;
+  bottom: 11px;
   left: 725px;
-
 }
 
-.uploadlogo{
+.uploadlogo {
   height: 32px;
   width: 32px;
   position: relative;
   top: -39px;
-  left:500px;
+  left: 500px;
 }
 
-
+#vtitle {
+  position: relative;
+  top: 70px;
+  text-indent: 10px;
+}
 
 .applogo {
   height: 22px;
   width: 22px;
   position: relative;
   top: -39px;
-  left:530px;
+  left: 530px;
 }
 
-
-.bellicon{
+.bellicon {
   height: 52px;
   width: 52px;
   color: blue;
   position: relative;
   top: -22px;
-  left:560px;
-
+  left: 560px;
 }
 
-.profileicon{
+.profileicon {
   width: 42px;
   height: 42px;
   border-radius: 50px;
   position: relative;
   top: -35px;
-  left:590px;
-
+  left: 590px;
 }
 
-.clips{
+.clips {
   position: relative;
   top: 100px;
-
 }
 
-.CAD{
+.CAD {
   text-align: center;
   font-weight: normal;
   position: relative;
-  top:40px;
+  top: 40px;
+}
 
+.anext {
+  position: relative;
+  top: 80px;
+}
+
+.pchase {
+  width: 42px;
+  height: 42px;
+  border-radius: 50px;
+  position: relative;
+  top: -135px;
+  left: 16px;
+}
+
+.tdent {
+  text-indent: 50px;
+}
+
+.subscrib {
+  background-color: red;
+  border: none;
+  color: white;
+  font-size: 1.0rem;
+  font-weight: 500;
+  letter-spacing: 007;
+  padding: 10px 16px;
+  margin: auto 4px;
+  border-radius: 2px;
+  font-weight: bold;
+  float: right;
+  position: relative;
+  top: -10px;
+  right: 50px;
+}
+
+.jugar {
+  color: rgba(17, 17, 17, 0.6);
+  position: relative;
+  left: 295px;
+}
+
+.derecho {
+  display: inline-block;
+  position: absolute;
+  top: 5px;
+}
+
+.derechob {
+  display: inline-block;
+  position: absolute;
+  top: 155px;
+}
+
+.derechoc {
+  display: inline-block;
+  position: absolute;
+  top: 295px;
+}
+
+.derechod {
+  display: inline-block;
+  position: absolute;
+  top: 425px;
+}
+
+.derechoe {
+  display: inline-block;
+  position: absolute;
+  top: 565px;
+}
+
+.derechof {
+  display: inline-block;
+  position: absolute;
+  top: 705px;
+}
+
+.littlet {
+  color: rgba(17, 17, 17, 0.6);
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.littlet2 {
+  color: rgba(17, 17, 17, 0.6);
+  font-size: 16px;
+  line-height: 18px;
+  margin-left: 10px;
+}
+
+.fa {
+  color: rgba(17, 17, 17, 0.6);
+}
+
+.shiftright {
+  position: relative;
+  left: 75px;
+}
+
+.fa-thumbs-up {
+  position: relative;
+  bottom: 30px;
+  left: 500px;
+  font-size: 13px;
+}
+
+.fa-thumbs-down {
+  position: relative;
+  bottom: 30px;
+  left: 550px;
+}
+
+.fa-share {
+  position: relative;
+  bottom: 30px;
+  left: 600px;
+}
+
+.fa-bars {
+  position: relative;
+  bottom: 30px;
+  left: 670px;
+}
+
+.fa-ellipsis-h {
+  position: relative;
+  bottom: 30px;
+  left: 700px;
+}
+
+.fa-bell {
+  position: relative;
+  bottom: -70px;
+  left: 720px;
+}
+
+.a {
+  color: rgba(17, 17, 17, 0.6);
+  position: relative;
+  bottom: 30px;
+  left: 800px;
+  font-size: 10px;
+}
+
+.one {
+  color: rgba(17, 17, 17, 0.6);
+  position: relative;
+  bottom: 49px;
+  left: 520px;
+}
+
+.two {
+  color: rgba(17, 17, 17, 0.6);
+  position: relative;
+  bottom: 65px;
+  left: 593px;
+}
+
+.three {
+  color: rgba(17, 17, 17, 0.6);
+  position: relative;
+  bottom: 80px;
+  left: 670px;
 }
